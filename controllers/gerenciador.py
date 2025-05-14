@@ -1,7 +1,6 @@
 from models.usuario import Usuario
 from database.database import Database
 
-
 class UsuarioController:
 
     def __init__(self, db):

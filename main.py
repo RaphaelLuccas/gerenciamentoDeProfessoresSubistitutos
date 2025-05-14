@@ -1,7 +1,6 @@
 from database.database import Database
 import os
 
-
 def inicializar_banco():
     db = Database()
 
@@ -13,7 +12,6 @@ def inicializar_banco():
         print("Falha ao inicializar o banco de dados.")
 
     db.fechar()
-
 
 if __name__ == "__main__":
     inicializar_banco()
